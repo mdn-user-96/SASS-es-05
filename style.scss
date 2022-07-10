@@ -1,0 +1,34 @@
+/*funzione random hex gen*/
+
+@function random-hex() {
+    $colori: '';
+    $i: 6;
+    @while $i>0 {
+        $numeri: random(16) - 1;
+        $lettere: A, B, C, D, E, F;
+        /*per numeri superiori a 9 viene usata una lettera*/
+        @if $numeri>9 {
+            $numeri: nth($lettere, random(6));
+        }
+        $colori: str-insert($colori, ("" + $numeri), 0);
+        /*per far fermare il ciclo, altrimenti sarebbe infinito*/
+        $i: $i - 1;
+    }
+    @return unquote("#"+"#{$colori}");
+}
+
+
+/*assegnazione dei colori ai 12 div*/
+
+body {
+    display: flex;
+    gap: 30px;
+}
+
+@for $i from 1 through 12 {
+    div:nth-child(#{$i}) {
+        color: random-hex();
+        height: 50px;
+        width: 50px;
+    }
+}
