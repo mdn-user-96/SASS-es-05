@@ -1,78 +1,78 @@
 /*funzione random hex gen*/
 /*assegnazione dei colori ai 12 div*/
-body {
+article {
   display: flex;
   gap: 30px;
 }
 
 div:nth-child(1) {
-  color: #4FC453;
+  color: #80D793;
   height: 50px;
   width: 50px;
 }
 
 div:nth-child(2) {
-  color: #CBCEE7;
+  color: #EEE543;
   height: 50px;
   width: 50px;
 }
 
 div:nth-child(3) {
-  color: #74C7A2;
+  color: #D1153C;
   height: 50px;
   width: 50px;
 }
 
 div:nth-child(4) {
-  color: #1A1C81;
+  color: #EAA6FA;
   height: 50px;
   width: 50px;
 }
 
 div:nth-child(5) {
-  color: #9D5D2D;
+  color: #AD3665;
   height: 50px;
   width: 50px;
 }
 
 div:nth-child(6) {
-  color: #D002BC;
+  color: #4CCE6D;
   height: 50px;
   width: 50px;
 }
 
 div:nth-child(7) {
-  color: #AC31F7;
+  color: #AD01A8;
   height: 50px;
   width: 50px;
 }
 
 div:nth-child(8) {
-  color: #A1F4AF;
+  color: #A42228;
   height: 50px;
   width: 50px;
 }
 
 div:nth-child(9) {
-  color: #E60AF6;
+  color: #5C5C40;
   height: 50px;
   width: 50px;
 }
 
 div:nth-child(10) {
-  color: #A717C6;
+  color: #8C34A0;
   height: 50px;
   width: 50px;
 }
 
 div:nth-child(11) {
-  color: #9DE1E1;
+  color: #4B29E1;
   height: 50px;
   width: 50px;
 }
 
 div:nth-child(12) {
-  color: #B26AE5;
+  color: #525FA0;
   height: 50px;
   width: 50px;
 }
