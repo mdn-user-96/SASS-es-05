@@ -20,14 +20,14 @@
 
 /*assegnazione dei colori ai 12 div*/
 
-article {
+body {
     display: flex;
     gap: 30px;
 }
 
 @for $i from 1 through 12 {
     div:nth-child(#{$i}) {
-        color: random-hex();
+        background-color: random-hex();
         height: 50px;
         width: 50px;
     }

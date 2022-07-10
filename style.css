@@ -1,78 +1,78 @@
 /*funzione random hex gen*/
 /*assegnazione dei colori ai 12 div*/
-article {
+body {
   display: flex;
   gap: 30px;
 }
 
 div:nth-child(1) {
-  color: #80D793;
+  background-color: #0E7AEB;
   height: 50px;
   width: 50px;
 }
 
 div:nth-child(2) {
-  color: #EEE543;
+  background-color: #57A129;
   height: 50px;
   width: 50px;
 }
 
 div:nth-child(3) {
-  color: #D1153C;
+  background-color: #5881F9;
   height: 50px;
   width: 50px;
 }
 
 div:nth-child(4) {
-  color: #EAA6FA;
+  background-color: #D8B604;
   height: 50px;
   width: 50px;
 }
 
 div:nth-child(5) {
-  color: #AD3665;
+  background-color: #0F6CF8;
   height: 50px;
   width: 50px;
 }
 
 div:nth-child(6) {
-  color: #4CCE6D;
+  background-color: #1D1798;
   height: 50px;
   width: 50px;
 }
 
 div:nth-child(7) {
-  color: #AD01A8;
+  background-color: #9E0096;
   height: 50px;
   width: 50px;
 }
 
 div:nth-child(8) {
-  color: #A42228;
+  background-color: #CC336B;
   height: 50px;
   width: 50px;
 }
 
 div:nth-child(9) {
-  color: #5C5C40;
+  background-color: #B910F5;
   height: 50px;
   width: 50px;
 }
 
 div:nth-child(10) {
-  color: #8C34A0;
+  background-color: #66A2F0;
   height: 50px;
   width: 50px;
 }
 
 div:nth-child(11) {
-  color: #4B29E1;
+  background-color: #E284F0;
   height: 50px;
   width: 50px;
 }
 
 div:nth-child(12) {
-  color: #525FA0;
+  background-color: #84AAF2;
   height: 50px;
   width: 50px;
 }
